@@ -1,0 +1,375 @@
+2021-07-26 23:36:12,491 INFO c.s.i.i.Main [main] Would you like a quote from 'Farmers' or 'Geico'?
+2021-07-26 23:36:15,127 INFO c.s.i.i.Main [main] Enter your Name, Age, Address (optional). Comma separated
+2021-07-26 23:36:19,982 INFO c.s.i.i.Main [main] 	 0 - To print available options.
+2021-07-26 23:36:19,982 INFO c.s.i.i.Main [main] 	 1 - To buy Car insurance.
+2021-07-26 23:36:19,982 INFO c.s.i.i.Main [main] 	 2 - To buy Business insurance.
+2021-07-26 23:36:19,982 INFO c.s.i.i.Main [main] 	 3 - To buy Boat insurance.
+2021-07-26 23:36:19,982 INFO c.s.i.i.Main [main] 	 4 - To buy Life insurance.
+2021-07-26 23:36:19,982 INFO c.s.i.i.Main [main] 	 5 - To buy Pets insurance.
+2021-07-26 23:36:19,983 INFO c.s.i.i.Main [main] 	 6 - To buy Home insurance.
+2021-07-26 23:36:19,983 INFO c.s.i.i.Main [main] 	 7 - To buy Renters insurance.
+2021-07-26 23:36:19,983 INFO c.s.i.i.Main [main] 	 8 - To buy Bond insurance.
+2021-07-26 23:36:19,983 INFO c.s.i.i.Main [main] 	 9 - To quit.
+2021-07-26 23:36:19,983 INFO c.s.i.i.Main [main] Enter your choice: 
+2021-07-26 23:36:21,932 INFO c.s.i.i.Main [main] You need to send details about your  BUSINESS policy requirements.
+2021-07-26 23:36:21,933 INFO c.s.i.i.Main [main] You will be asked the following questions about your Business
+2021-07-26 23:36:21,933 INFO c.s.i.i.Main [main] Name
+2021-07-26 23:36:21,933 INFO c.s.i.i.Main [main] Business Costs?
+2021-07-26 23:36:21,934 INFO c.s.i.i.Main [main] Business Years?
+2021-07-26 23:36:21,934 INFO c.s.i.i.Main [main]  
+2021-07-26 23:36:21,934 INFO c.s.i.i.Main [main] What is your name
+2021-07-26 23:36:24,995 INFO c.s.i.i.Main [main] Enter your business cost
+2021-07-28 23:22:35,574 INFO c.s.i.i.Main [main] Would you like a quote from 'Farmers' or 'Geico'?
+2021-07-28 23:22:48,621 INFO c.s.i.i.Main [main] Enter your Name, Age, Address (optional). Comma separated
+2021-07-28 23:23:09,570 INFO c.s.i.i.Main [main] 	 0 - To print available options.
+2021-07-28 23:23:09,570 INFO c.s.i.i.Main [main] 	 1 - To buy Car insurance.
+2021-07-28 23:23:09,570 INFO c.s.i.i.Main [main] 	 2 - To buy Business insurance.
+2021-07-28 23:23:09,570 INFO c.s.i.i.Main [main] 	 3 - To buy Boat insurance.
+2021-07-28 23:23:09,571 INFO c.s.i.i.Main [main] 	 4 - To buy Life insurance.
+2021-07-28 23:23:09,571 INFO c.s.i.i.Main [main] 	 5 - To buy Pets insurance.
+2021-07-28 23:23:09,571 INFO c.s.i.i.Main [main] 	 6 - To buy Home insurance.
+2021-07-28 23:23:09,571 INFO c.s.i.i.Main [main] 	 7 - To buy Renters insurance.
+2021-07-28 23:23:09,571 INFO c.s.i.i.Main [main] 	 8 - To buy Bond insurance.
+2021-07-28 23:23:09,572 INFO c.s.i.i.Main [main] 	 9 - To quit.
+2021-07-28 23:23:09,572 INFO c.s.i.i.Main [main] Enter your choice: 
+2021-07-28 23:23:21,536 INFO c.s.i.i.Main [main] You will be asked the following questions about your Car
+2021-07-28 23:23:21,537 INFO c.s.i.i.Main [main] Car year?
+2021-07-28 23:23:21,537 INFO c.s.i.i.Main [main] Price/value?
+2021-07-28 23:23:21,537 INFO c.s.i.i.Main [main] Accidents history?
+2021-07-28 23:23:21,537 INFO c.s.i.i.Main [main] Miles driven?
+2021-07-28 23:23:21,538 INFO c.s.i.i.Main [main] Car make?
+2021-07-28 23:23:21,538 INFO c.s.i.i.Main [main]  
+2021-07-28 23:23:21,538 INFO c.s.i.i.Main [main] You need to send details about your  Car policy requirements.
+2021-07-28 23:23:21,538 INFO c.s.i.i.Main [main] Enter car year
+2021-07-28 23:23:57,579 INFO c.s.i.i.Main [main] Enter car price/value
+2021-07-28 23:24:02,795 INFO c.s.i.i.Main [main] Have you had accidents yes/no
+2021-07-28 23:24:07,370 INFO c.s.i.i.Main [main] Miles driven on odometer 
+2021-07-28 23:24:11,942 INFO c.s.i.i.Main [main] Car make
+2021-07-28 23:24:19,763 INFO c.s.i.i.Main [main] Insurance profile is being generated for 
+ Name: vasyl
+ Age:25
+ Address: Address is not disclosed
+
+2021-07-28 23:24:19,765 INFO c.s.i.i.Main [pool-2-thread-2] this is a Car policy that we are underwriting via Interface!
+2021-07-28 23:24:19,766 INFO c.s.i.i.Main [pool-2-thread-2] the Car policy cost check was successful, we are proceeding!
+2021-07-28 23:24:19,766 INFO c.s.i.i.Main [main] You policy Summary for < Car > 
+ Your rate: $25.00/mo 
+ Your policy number: FARMERS-559
+2021-07-28 23:24:19,766 INFO c.s.i.i.Main [main] ================ SEPARATOR ==================================
+2021-07-28 23:24:19,769 INFO c.s.i.i.Main [main] policy1 does equal policy2: true
+2021-07-28 23:24:19,770 INFO c.s.i.i.Main [main] toyota cost: $72.4
+2021-07-28 23:24:19,770 INFO c.s.i.i.Main [main] motorcycle cost: $8.964
+2021-07-28 23:24:19,771 INFO c.s.i.i.Main [main] boat cost: $3.0
+2021-07-28 23:24:19,771 INFO c.s.i.i.Main [main] life insurance cost: $100.0
+2021-07-28 23:24:19,771 INFO c.s.i.i.Main [main] renters insurance cost: $324.0
+2021-07-28 23:24:19,772 INFO c.s.i.i.Main [main] home insurance cost: $110.0
+2021-07-28 23:24:19,772 INFO c.s.i.i.Main [main] this is the grand cost of policy1: $445.36400000000003
+2021-07-28 23:24:19,773 INFO c.s.i.i.Main [main] this is a business cost: 17.0
+2021-07-28 23:24:19,773 INFO c.s.i.i.Main [main] this is a total of policy1 and business: 462.36400000000003
+2021-07-28 23:24:19,774 INFO c.s.i.i.Main [main] does policy1 equal policy2? : true
+2021-07-28 23:24:19,774 INFO c.s.i.i.Main [main] does policy1 equal policy3? : false
+2021-07-28 23:24:19,775 INFO c.s.i.i.Main [main] Set has how many elements: 1
+2021-07-28 23:24:19,776 INFO c.s.i.i.Main [pool-2-thread-2] The check was done on this Car policy, number listed as: 559 and the cost is: $50003.5
+2021-07-28 23:24:19,776 INFO c.s.i.i.Main [main] Vasyl , you bought our awesome policy!
+2021-07-28 23:24:19,777 INFO c.s.i.i.Main [main] this is a Home policy that we are underwriting via Interface!
+2021-07-28 23:24:19,778 INFO c.s.i.i.Main [main] the policy number needs to be underwritten is: 567
+2021-07-28 23:24:19,778 INFO c.s.i.i.Main [main] the cost check was successful, we are proceeding!
+2021-07-28 23:24:19,778 INFO c.s.i.i.Main [main] The check was done on this Home policy, number listed as: 567 and the cost is: $110.0
+2021-07-28 23:24:19,779 WARN c.s.i.i.Main [main] this is a Renters Policy policy that we are underwriting via Interface!
+2021-07-28 23:24:19,779 INFO c.s.i.i.Main [main] the policy number needs to be underwritten is: 999
+2021-07-28 23:24:19,779 INFO c.s.i.i.Main [main] the Renters Insurance policy cost check was successful, we are proceeding!
+2021-07-28 23:24:19,780 INFO c.s.i.i.Main [main] The check was done on this Renters policy, number listed as: 999 and the cost is: $324.0
+2021-07-28 23:24:19,780 INFO c.s.i.i.Main [main] This is a motorcycle, definitely a high risk!
+2021-07-28 23:24:19,780 INFO c.s.i.i.Main [main] we have accident, stop writing!
+2021-07-28 23:24:19,780 FATAL c.s.i.i.Main [main] This is a boat, ensure safety vest!
+2021-07-28 23:24:19,781 INFO c.s.i.i.Main [main] We can proceed, the size of the boat is checked!
+2021-07-28 23:24:19,786 WARN c.s.i.i.Main [main] this is a warning that both policies are NOT the same: Vasyl
+2021-07-28 23:24:19,786 INFO c.s.i.i.Main [main] this is info that both policies are the same: Vasyl
+2021-07-28 23:24:19,786 WARN c.s.i.i.Main [main] Total of this division is: -Infinity
+2021-07-28 23:24:19,786 ERROR c.s.i.i.Main [main] this is the divide by 0 ZERO:
+2021-07-28 23:24:19,787 INFO c.s.i.i.Main [main] the bond insurance cost is: 36000.0
+2021-07-28 23:28:25,675 INFO c.s.i.i.Main [main] Would you like a quote from 'Farmers' or 'Geico'?
+2021-07-28 23:28:35,117 INFO c.s.i.i.Main [main] Enter your Name, Age, Address (optional). Comma separated
+2021-07-28 23:28:46,329 INFO c.s.i.i.Main [main] 	 0 - To print available options.
+2021-07-28 23:28:46,329 INFO c.s.i.i.Main [main] 	 1 - To buy Car insurance.
+2021-07-28 23:28:46,329 INFO c.s.i.i.Main [main] 	 2 - To buy Business insurance.
+2021-07-28 23:28:46,329 INFO c.s.i.i.Main [main] 	 3 - To buy Boat insurance.
+2021-07-28 23:28:46,329 INFO c.s.i.i.Main [main] 	 4 - To buy Life insurance.
+2021-07-28 23:28:46,330 INFO c.s.i.i.Main [main] 	 5 - To buy Pets insurance.
+2021-07-28 23:28:46,330 INFO c.s.i.i.Main [main] 	 6 - To buy Home insurance.
+2021-07-28 23:28:46,330 INFO c.s.i.i.Main [main] 	 7 - To buy Renters insurance.
+2021-07-28 23:28:46,330 INFO c.s.i.i.Main [main] 	 8 - To buy Bond insurance.
+2021-07-28 23:28:46,330 INFO c.s.i.i.Main [main] 	 9 - To quit.
+2021-07-28 23:28:46,330 INFO c.s.i.i.Main [main] Enter your choice: 
+2021-07-28 23:29:16,009 INFO c.s.i.i.Main [main] ================ SEPARATOR ==================================
+2021-07-28 23:29:16,012 INFO c.s.i.i.Main [main] policy1 does equal policy2: true
+2021-07-28 23:29:16,013 INFO c.s.i.i.Main [main] toyota cost: $72.4
+2021-07-28 23:29:16,013 INFO c.s.i.i.Main [main] motorcycle cost: $8.964
+2021-07-28 23:29:16,014 INFO c.s.i.i.Main [main] boat cost: $3.0
+2021-07-28 23:29:16,014 INFO c.s.i.i.Main [main] life insurance cost: $100.0
+2021-07-28 23:29:16,014 INFO c.s.i.i.Main [main] renters insurance cost: $324.0
+2021-07-28 23:29:16,015 INFO c.s.i.i.Main [main] home insurance cost: $110.0
+2021-07-28 23:29:16,015 INFO c.s.i.i.Main [main] this is the grand cost of policy1: $445.36400000000003
+2021-07-28 23:29:16,015 INFO c.s.i.i.Main [main] this is a business cost: 17.0
+2021-07-28 23:29:16,016 INFO c.s.i.i.Main [main] this is a total of policy1 and business: 462.36400000000003
+2021-07-28 23:29:16,016 INFO c.s.i.i.Main [main] does policy1 equal policy2? : true
+2021-07-28 23:29:16,016 INFO c.s.i.i.Main [main] does policy1 equal policy3? : false
+2021-07-28 23:29:16,017 INFO c.s.i.i.Main [main] Set has how many elements: 1
+2021-07-28 23:29:16,018 INFO c.s.i.i.Main [main] Vasyl , you bought our awesome policy!
+2021-07-28 23:29:16,018 INFO c.s.i.i.Main [main] this is a Home policy that we are underwriting via Interface!
+2021-07-28 23:29:16,019 INFO c.s.i.i.Main [main] the policy number needs to be underwritten is: 567
+2021-07-28 23:29:16,019 INFO c.s.i.i.Main [main] the cost check was successful, we are proceeding!
+2021-07-28 23:29:16,026 INFO c.s.i.i.Main [main] The check was done on this Home policy, number listed as: 567 and the cost is: $110.0
+2021-07-28 23:29:16,026 WARN c.s.i.i.Main [main] this is a Renters Policy policy that we are underwriting via Interface!
+2021-07-28 23:29:16,027 INFO c.s.i.i.Main [main] the policy number needs to be underwritten is: 999
+2021-07-28 23:29:16,027 INFO c.s.i.i.Main [main] the Renters Insurance policy cost check was successful, we are proceeding!
+2021-07-28 23:29:16,028 INFO c.s.i.i.Main [main] The check was done on this Renters policy, number listed as: 999 and the cost is: $324.0
+2021-07-28 23:29:16,029 INFO c.s.i.i.Main [main] This is a motorcycle, definitely a high risk!
+2021-07-28 23:29:16,029 INFO c.s.i.i.Main [main] we have accident, stop writing!
+2021-07-28 23:29:16,030 FATAL c.s.i.i.Main [main] This is a boat, ensure safety vest!
+2021-07-28 23:29:16,030 INFO c.s.i.i.Main [main] We can proceed, the size of the boat is checked!
+2021-07-28 23:29:16,034 WARN c.s.i.i.Main [main] this is a warning that both policies are NOT the same: Vasyl
+2021-07-28 23:29:16,035 INFO c.s.i.i.Main [main] this is info that both policies are the same: Vasyl
+2021-07-28 23:29:16,035 WARN c.s.i.i.Main [main] Total of this division is: -Infinity
+2021-07-28 23:29:16,035 ERROR c.s.i.i.Main [main] this is the divide by 0 ZERO:
+2021-07-28 23:29:16,036 INFO c.s.i.i.Main [main] the bond insurance cost is: 36000.0
+2021-07-28 23:31:42,804 INFO c.s.i.i.Main [main] Would you like a quote from 'Farmers' or 'Geico'?
+2021-07-28 23:31:59,294 INFO c.s.i.i.Main [main] Enter your Name, Age, Address (optional). Comma separated
+2021-07-28 23:32:08,076 INFO c.s.i.i.Main [main] 	 0 - To print available options.
+2021-07-28 23:32:08,076 INFO c.s.i.i.Main [main] 	 1 - To buy Car insurance.
+2021-07-28 23:32:08,076 INFO c.s.i.i.Main [main] 	 2 - To buy Business insurance.
+2021-07-28 23:32:08,076 INFO c.s.i.i.Main [main] 	 3 - To buy Boat insurance.
+2021-07-28 23:32:08,077 INFO c.s.i.i.Main [main] 	 4 - To buy Life insurance.
+2021-07-28 23:32:08,077 INFO c.s.i.i.Main [main] 	 5 - To buy Pets insurance.
+2021-07-28 23:32:08,077 INFO c.s.i.i.Main [main] 	 6 - To buy Home insurance.
+2021-07-28 23:32:08,077 INFO c.s.i.i.Main [main] 	 7 - To buy Renters insurance.
+2021-07-28 23:32:08,077 INFO c.s.i.i.Main [main] 	 8 - To buy Bond insurance.
+2021-07-28 23:32:08,077 INFO c.s.i.i.Main [main] 	 9 - To quit.
+2021-07-28 23:32:08,078 INFO c.s.i.i.Main [main] Enter your choice: 
+2021-07-28 23:32:18,720 INFO c.s.i.i.Main [main] ================ SEPARATOR ==================================
+2021-07-28 23:32:18,723 INFO c.s.i.i.Main [main] policy1 does equal policy2: true
+2021-07-28 23:32:18,724 INFO c.s.i.i.Main [main] toyota cost: $72.4
+2021-07-28 23:32:18,725 INFO c.s.i.i.Main [main] motorcycle cost: $8.964
+2021-07-28 23:32:18,725 INFO c.s.i.i.Main [main] boat cost: $3.0
+2021-07-28 23:32:18,725 INFO c.s.i.i.Main [main] life insurance cost: $100.0
+2021-07-28 23:32:18,726 INFO c.s.i.i.Main [main] renters insurance cost: $324.0
+2021-07-28 23:32:18,726 INFO c.s.i.i.Main [main] home insurance cost: $110.0
+2021-07-28 23:32:18,726 INFO c.s.i.i.Main [main] this is the grand cost of policy1: $445.36400000000003
+2021-07-28 23:32:18,727 INFO c.s.i.i.Main [main] this is a business cost: 17.0
+2021-07-28 23:32:18,727 INFO c.s.i.i.Main [main] this is a total of policy1 and business: 462.36400000000003
+2021-07-28 23:32:18,727 INFO c.s.i.i.Main [main] does policy1 equal policy2? : true
+2021-07-28 23:32:18,727 INFO c.s.i.i.Main [main] does policy1 equal policy3? : false
+2021-07-28 23:32:18,728 INFO c.s.i.i.Main [main] Set has how many elements: 1
+2021-07-28 23:32:18,729 INFO c.s.i.i.Main [main] Vasyl , you bought our awesome policy!
+2021-07-28 23:32:18,729 INFO c.s.i.i.Main [main] this is a Home policy that we are underwriting via Interface!
+2021-07-28 23:32:18,730 INFO c.s.i.i.Main [main] the policy number needs to be underwritten is: 567
+2021-07-28 23:32:18,730 INFO c.s.i.i.Main [main] the cost check was successful, we are proceeding!
+2021-07-28 23:32:18,736 INFO c.s.i.i.Main [main] The check was done on this Home policy, number listed as: 567 and the cost is: $110.0
+2021-07-28 23:32:18,737 WARN c.s.i.i.Main [main] this is a Renters Policy policy that we are underwriting via Interface!
+2021-07-28 23:32:18,738 INFO c.s.i.i.Main [main] the policy number needs to be underwritten is: 999
+2021-07-28 23:32:18,738 INFO c.s.i.i.Main [main] the Renters Insurance policy cost check was successful, we are proceeding!
+2021-07-28 23:32:18,738 INFO c.s.i.i.Main [main] The check was done on this Renters policy, number listed as: 999 and the cost is: $324.0
+2021-07-28 23:32:18,739 INFO c.s.i.i.Main [main] This is a motorcycle, definitely a high risk!
+2021-07-28 23:32:18,739 INFO c.s.i.i.Main [main] we have accident, stop writing!
+2021-07-28 23:32:18,739 FATAL c.s.i.i.Main [main] This is a boat, ensure safety vest!
+2021-07-28 23:32:18,739 INFO c.s.i.i.Main [main] We can proceed, the size of the boat is checked!
+2021-07-28 23:32:18,743 WARN c.s.i.i.Main [main] this is a warning that both policies are NOT the same: Vasyl
+2021-07-28 23:32:18,744 INFO c.s.i.i.Main [main] this is info that both policies are the same: Vasyl
+2021-07-28 23:32:18,744 WARN c.s.i.i.Main [main] Total of this division is: -Infinity
+2021-07-28 23:32:18,744 ERROR c.s.i.i.Main [main] this is the divide by 0 ZERO:
+2021-07-28 23:32:18,745 INFO c.s.i.i.Main [main] the bond insurance cost is: 36000.0
+2021-08-08 16:29:24,457 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico'?
+2021-08-08 16:29:28,857 INFO c.s.i.Main [main] Enter your Name, Age, Address (optional). Comma separated
+2021-08-08 16:29:43,803 INFO c.s.i.Main [main] 	 0 - To print available options.
+2021-08-08 16:29:43,804 INFO c.s.i.Main [main] 	 1 - To buy Car insurance.
+2021-08-08 16:29:43,804 INFO c.s.i.Main [main] 	 2 - To buy Business insurance.
+2021-08-08 16:29:43,804 INFO c.s.i.Main [main] 	 3 - To buy Boat insurance.
+2021-08-08 16:29:43,804 INFO c.s.i.Main [main] 	 4 - To buy Life insurance.
+2021-08-08 16:29:43,804 INFO c.s.i.Main [main] 	 5 - To buy Pets insurance.
+2021-08-08 16:29:43,804 INFO c.s.i.Main [main] 	 6 - To buy Home insurance.
+2021-08-08 16:29:43,805 INFO c.s.i.Main [main] 	 7 - To buy Renters insurance.
+2021-08-08 16:29:43,805 INFO c.s.i.Main [main] 	 8 - To buy Bond insurance.
+2021-08-08 16:29:43,805 INFO c.s.i.Main [main] 	 9 - To quit.
+2021-08-08 16:29:43,805 INFO c.s.i.Main [main] Enter your choice: 
+2021-08-08 16:39:50,331 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico'?
+2021-08-08 16:42:03,919 INFO c.s.i.Main [main] Enter your Name, Age, Address (optional). Comma separated
+2021-08-08 16:42:49,303 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico'?
+2021-08-08 16:43:06,291 INFO c.s.i.Main [main] Enter your Name, Age, Address (optional). Comma separated
+2021-08-08 16:43:12,793 INFO c.s.i.Main [main] 	 0 - To print available options.
+2021-08-08 16:43:12,794 INFO c.s.i.Main [main] 	 1 - To buy Car insurance.
+2021-08-08 16:43:12,794 INFO c.s.i.Main [main] 	 2 - To buy Business insurance.
+2021-08-08 16:43:12,794 INFO c.s.i.Main [main] 	 3 - To buy Boat insurance.
+2021-08-08 16:43:12,794 INFO c.s.i.Main [main] 	 4 - To buy Life insurance.
+2021-08-08 16:43:12,794 INFO c.s.i.Main [main] 	 5 - To buy Pets insurance.
+2021-08-08 16:43:12,795 INFO c.s.i.Main [main] 	 6 - To buy Home insurance.
+2021-08-08 16:43:12,795 INFO c.s.i.Main [main] 	 7 - To buy Renters insurance.
+2021-08-08 16:43:12,795 INFO c.s.i.Main [main] 	 8 - To buy Bond insurance.
+2021-08-08 16:43:12,795 INFO c.s.i.Main [main] 	 9 - To quit.
+2021-08-08 16:43:12,795 INFO c.s.i.Main [main] Enter your choice: 
+2021-08-08 16:43:15,854 INFO c.s.i.Main [main] You will be asked the following questions about your Car
+2021-08-08 16:43:15,855 INFO c.s.i.Main [main] Car year?
+2021-08-08 16:43:15,855 INFO c.s.i.Main [main] Price/value?
+2021-08-08 16:43:15,855 INFO c.s.i.Main [main] Accidents history?
+2021-08-08 16:43:15,855 INFO c.s.i.Main [main] Miles driven?
+2021-08-08 16:43:15,855 INFO c.s.i.Main [main] Car make?
+2021-08-08 16:43:15,856 INFO c.s.i.Main [main]  
+2021-08-08 16:43:15,856 INFO c.s.i.Main [main] You need to send details about your  Car policy requirements.
+2021-08-08 16:43:15,856 INFO c.s.i.Main [main] Enter car year
+2021-08-08 16:43:24,293 INFO c.s.i.Main [main] Enter car price/value
+2021-08-08 16:43:28,130 INFO c.s.i.Main [main] Have you had accidents yes/no
+2021-08-08 16:43:30,636 INFO c.s.i.Main [main] Miles driven on odometer 
+2021-08-08 16:43:32,867 INFO c.s.i.Main [main] Car make
+2021-08-08 16:43:34,829 INFO c.s.i.Main [main] Insurance profile is being generated for 
+ Name: sjhfjksdh
+ Age:23
+ Address:  kddsfj
+
+2021-08-08 16:43:34,832 INFO c.s.i.Main [pool-2-thread-2] this is a Car policy that we are underwriting via Interface!
+2021-08-08 16:43:34,833 INFO c.s.i.Main [pool-2-thread-2] the Car policy cost check was successful, we are proceeding!
+2021-08-08 16:43:34,834 INFO c.s.i.Main [main] You policy Summary for < Car > 
+ Your rate: $19.00/mo 
+ Your policy number: GEICO-904
+2021-08-08 16:43:34,835 INFO c.s.i.Main [main] ================ SEPARATOR ==================================
+2021-08-08 16:43:34,840 INFO c.s.i.Main [main] policy1 does equal policy2: true
+2021-08-08 16:43:34,842 INFO c.s.i.Main [main] toyota cost: $72.4
+2021-08-08 16:43:34,843 INFO c.s.i.Main [main] motorcycle cost: $8.964
+2021-08-08 16:43:34,843 INFO c.s.i.Main [main] boat cost: $3.0
+2021-08-08 16:43:34,843 INFO c.s.i.Main [main] life insurance cost: $100.0
+2021-08-08 16:43:34,844 INFO c.s.i.Main [main] renters insurance cost: $324.0
+2021-08-08 16:43:34,845 INFO c.s.i.Main [main] home insurance cost: $110.0
+2021-08-08 16:43:34,846 INFO c.s.i.Main [main] this is the grand cost of policy1: $445.36400000000003
+2021-08-08 16:43:34,847 INFO c.s.i.Main [main] this is a business cost: 17.0
+2021-08-08 16:43:34,848 INFO c.s.i.Main [main] this is a total of policy1 and business: 462.36400000000003
+2021-08-08 16:43:34,849 INFO c.s.i.Main [main] does policy1 equal policy2? : true
+2021-08-08 16:43:34,849 INFO c.s.i.Main [pool-2-thread-2] The check was done on this Car policy, number listed as: 904 and the cost is: $1003.5
+2021-08-08 16:43:34,850 INFO c.s.i.Main [main] does policy1 equal policy3? : false
+2021-08-08 16:43:34,850 INFO c.s.i.Main [main] Set has how many elements: 1
+2021-08-08 16:43:34,851 INFO c.s.i.Main [main] Vasyl , you bought our awesome policy!
+2021-08-08 16:43:34,852 INFO c.s.i.Main [main] this is a Home policy that we are underwriting via Interface!
+2021-08-08 16:43:34,853 INFO c.s.i.Main [main] the policy number needs to be underwritten is: 567
+2021-08-08 16:43:34,853 INFO c.s.i.Main [main] the cost check was successful, we are proceeding!
+2021-08-08 16:43:34,853 INFO c.s.i.Main [main] The check was done on this Home policy, number listed as: 567 and the cost is: $110.0
+2021-08-08 16:43:34,854 WARN c.s.i.Main [main] this is a Renters Policy policy that we are underwriting via Interface!
+2021-08-08 16:43:34,854 INFO c.s.i.Main [main] the policy number needs to be underwritten is: 999
+2021-08-08 16:43:34,854 INFO c.s.i.Main [main] the Renters Insurance policy cost check was successful, we are proceeding!
+2021-08-08 16:43:34,855 INFO c.s.i.Main [main] The check was done on this Renters policy, number listed as: 999 and the cost is: $324.0
+2021-08-08 16:43:34,855 INFO c.s.i.Main [main] This is a motorcycle, definitely a high risk!
+2021-08-08 16:43:34,855 INFO c.s.i.Main [main] we have accident, stop writing!
+2021-08-08 16:43:34,856 FATAL c.s.i.Main [main] This is a boat, ensure safety vest!
+2021-08-08 16:43:34,856 INFO c.s.i.Main [main] We can proceed, the size of the boat is checked!
+2021-08-08 16:43:34,856 WARN c.s.i.Main [main] java.io.FileNotFoundException: /Users/vasylromaniuk/Documents/java_console.txt (No such file or directory)
+2021-08-08 16:43:34,857 WARN c.s.i.Main [main] this is a warning that both policies are NOT the same: Vasyl
+2021-08-08 16:43:34,857 INFO c.s.i.Main [main] this is info that both policies are the same: Vasyl
+2021-08-08 16:43:34,857 WARN c.s.i.Main [main] Total of this division is: -Infinity
+2021-08-08 16:43:34,858 ERROR c.s.i.Main [main] this is the divide by 0 ZERO:
+2021-08-08 16:43:34,859 INFO c.s.i.Main [main] the bond insurance cost is: 36000.0
+2021-08-08 18:13:40,884 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 18:17:07,297 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 19:33:36,371 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 19:34:38,789 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 19:36:26,336 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 19:38:34,025 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 19:39:01,702 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 19:39:16,127 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 19:40:03,415 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 19:40:51,694 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 19:41:45,819 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 22:32:54,724 INFO c.s.i.Main [main] null
+2021-08-08 22:32:54,896 INFO c.s.i.Main [main] null
+2021-08-08 22:32:54,903 INFO c.s.i.Main [main] null
+2021-08-08 22:32:54,909 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 22:36:00,961 INFO c.s.i.Main [main] null
+2021-08-08 22:36:01,135 INFO c.s.i.Main [main] null
+2021-08-08 22:36:08,052 INFO c.s.i.Main [main] null
+2021-08-08 22:36:45,968 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 22:38:23,026 INFO c.s.i.Main [main] null
+2021-08-08 22:39:15,789 INFO c.s.i.Main [main] null
+2021-08-08 22:39:15,970 INFO c.s.i.Main [main] null
+2021-08-08 22:39:36,102 INFO c.s.i.Main [main] null
+2021-08-08 22:40:09,003 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 22:41:02,009 INFO c.s.i.Main [main] null
+2021-08-08 22:42:39,771 INFO c.s.i.Main [main] 0 null null 0
+2021-08-08 22:42:40,120 INFO c.s.i.Main [main] 0 null null 0
+2021-08-08 22:42:40,471 INFO c.s.i.Main [main] 0 null null 0
+2021-08-08 22:42:40,476 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 22:43:25,354 INFO c.s.i.Main [main] 131 John Smith 27
+2021-08-08 22:43:25,731 INFO c.s.i.Main [main] 131 John Washington 131
+2021-08-08 22:43:26,105 INFO c.s.i.Main [main] 0 null null 0
+2021-08-08 22:43:26,113 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 22:44:57,359 INFO c.s.i.Main [main] Created row -> 131 John Smith 27
+2021-08-08 22:44:57,703 INFO c.s.i.Main [main] Created row -> 131 John Washington 131
+2021-08-08 22:44:58,082 INFO c.s.i.Main [main] 0 null null 0
+2021-08-08 22:44:58,090 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 22:51:46,915 INFO c.s.i.Main [main] Created row -> 131 John Smith 27
+2021-08-08 22:51:47,264 INFO c.s.i.Main [main] Updated row -> 131 John Washington 131
+2021-08-08 22:51:47,614 INFO c.s.i.Main [main] 0 null null 0
+2021-08-08 22:51:47,622 INFO c.s.i.Main [main] Would you like a quote from 'Farmers' or 'Geico' or `TripleA`?
+2021-08-08 22:51:59,495 INFO c.s.i.Main [main] Enter your Name, Age, Address (optional). Comma separated
+2021-08-08 22:52:07,255 INFO c.s.i.Main [main] 	 0 - To print available options.
+2021-08-08 22:52:07,255 INFO c.s.i.Main [main] 	 1 - To buy Car insurance.
+2021-08-08 22:52:07,256 INFO c.s.i.Main [main] 	 2 - To buy Business insurance.
+2021-08-08 22:52:07,256 INFO c.s.i.Main [main] 	 3 - To buy Boat insurance.
+2021-08-08 22:52:07,256 INFO c.s.i.Main [main] 	 4 - To buy Life insurance.
+2021-08-08 22:52:07,256 INFO c.s.i.Main [main] 	 5 - To buy Pets insurance.
+2021-08-08 22:52:07,256 INFO c.s.i.Main [main] 	 6 - To buy Home insurance.
+2021-08-08 22:52:07,256 INFO c.s.i.Main [main] 	 7 - To buy Renters insurance.
+2021-08-08 22:52:07,257 INFO c.s.i.Main [main] 	 8 - To buy Bond insurance.
+2021-08-08 22:52:07,257 INFO c.s.i.Main [main] 	 9 - To quit.
+2021-08-08 22:52:07,257 INFO c.s.i.Main [main] Enter your choice: 
+2021-08-08 22:52:11,750 INFO c.s.i.Main [main] You will be asked the following questions about your  Car 
+2021-08-08 22:52:11,753 INFO c.s.i.Main [main] Car year?
+2021-08-08 22:52:11,754 INFO c.s.i.Main [main] Price/value?
+2021-08-08 22:52:11,754 INFO c.s.i.Main [main] Accidents history?
+2021-08-08 22:52:11,754 INFO c.s.i.Main [main] Miles driven?
+2021-08-08 22:52:11,754 INFO c.s.i.Main [main] Car make?
+2021-08-08 22:52:11,754 INFO c.s.i.Main [main]  
+2021-08-08 22:52:11,755 INFO c.s.i.Main [main] You need to send details about your  Car policy requirements.
+2021-08-08 22:52:11,755 INFO c.s.i.Main [main] Enter car year
+2021-08-08 22:52:18,747 INFO c.s.i.Main [main] Enter car price/value
+2021-08-08 22:52:21,075 INFO c.s.i.Main [main] Have you had accidents yes/no
+2021-08-08 22:52:23,591 INFO c.s.i.Main [main] Miles driven on odometer 
+2021-08-08 22:52:25,889 INFO c.s.i.Main [main] Car make
+2021-08-08 22:52:27,970 INFO c.s.i.Main [main] Insurance profile is being generated for 
+ Name: denys
+ Age:25
+ Address:  sdfa
+
+2021-08-08 22:52:27,973 INFO c.s.i.Main [pool-2-thread-2] this is a Car policy that we are underwriting via Interface!
+2021-08-08 22:52:27,974 INFO c.s.i.Main [pool-2-thread-2] the Car policy cost check was successful, we are proceeding!
+2021-08-08 22:52:27,974 INFO c.s.i.Main [main] You policy Summary for < Car > 
+ Your rate: $25.00/mo 
+ Your policy number: FARMERS-642
+2021-08-08 22:52:27,975 INFO c.s.i.Main [main] ================ SEPARATOR ==================================
+2021-08-08 22:52:27,981 INFO c.s.i.Main [main] policy1 does equal policy2: true
+2021-08-08 22:52:27,985 INFO c.s.i.Main [main] toyota cost: $72.4
+2021-08-08 22:52:27,985 INFO c.s.i.Main [main] motorcycle cost: $8.964
+2021-08-08 22:52:27,986 INFO c.s.i.Main [main] boat cost: $3.0
+2021-08-08 22:52:27,987 INFO c.s.i.Main [main] life insurance cost: $100.0
+2021-08-08 22:52:27,987 INFO c.s.i.Main [pool-2-thread-2] The check was done on this Car policy, number listed as: 642 and the cost is: $123126.5
+2021-08-08 22:52:27,988 INFO c.s.i.Main [main] renters insurance cost: $324.0
+2021-08-08 22:52:27,988 INFO c.s.i.Main [main] home insurance cost: $110.0
+2021-08-08 22:52:27,989 INFO c.s.i.Main [main] this is the grand cost of policy1: $445.36400000000003
+2021-08-08 22:52:27,991 INFO c.s.i.Main [main] this is a business cost: 17.0
+2021-08-08 22:52:27,992 INFO c.s.i.Main [main] this is a total of policy1 and business: 462.36400000000003
+2021-08-08 22:52:27,993 INFO c.s.i.Main [main] does policy1 equal policy2? : true
+2021-08-08 22:52:27,994 INFO c.s.i.Main [main] does policy1 equal policy3? : false
+2021-08-08 22:52:27,994 INFO c.s.i.Main [main] Set has how many elements: 1
+2021-08-08 22:52:27,996 INFO c.s.i.Main [main] Vasyl , you bought our awesome policy!
+2021-08-08 22:52:27,997 INFO c.s.i.Main [main] this is a Home policy that we are underwriting via Interface!
+2021-08-08 22:52:27,997 INFO c.s.i.Main [main] the policy number needs to be underwritten is: 567
+2021-08-08 22:52:27,997 INFO c.s.i.Main [main] the cost check was successful, we are proceeding!
+2021-08-08 22:52:27,998 INFO c.s.i.Main [main] The check was done on this Home policy, number listed as: 567 and the cost is: $110.0
+2021-08-08 22:52:27,998 WARN c.s.i.Main [main] this is a Renters Policy policy that we are underwriting via Interface!
+2021-08-08 22:52:27,999 INFO c.s.i.Main [main] the policy number needs to be underwritten is: 999
+2021-08-08 22:52:27,999 INFO c.s.i.Main [main] the Renters Insurance policy cost check was successful, we are proceeding!
+2021-08-08 22:52:28,000 INFO c.s.i.Main [main] The check was done on this Renters policy, number listed as: 999 and the cost is: $324.0
+2021-08-08 22:52:28,000 INFO c.s.i.Main [main] This is a motorcycle, definitely a high risk!
+2021-08-08 22:52:28,001 INFO c.s.i.Main [main] we have accident, stop writing!
+2021-08-08 22:52:28,001 FATAL c.s.i.Main [main] This is a boat, ensure safety vest!
+2021-08-08 22:52:28,002 INFO c.s.i.Main [main] We can proceed, the size of the boat is checked!
+2021-08-08 22:52:28,002 WARN c.s.i.Main [main] java.io.FileNotFoundException: /Users/vasylromaniuk/Documents/java_console.txt (No such file or directory)
+2021-08-08 22:52:28,002 WARN c.s.i.Main [main] this is a warning that both policies are NOT the same: Vasyl
+2021-08-08 22:52:28,003 INFO c.s.i.Main [main] this is info that both policies are the same: Vasyl
+2021-08-08 22:52:28,003 WARN c.s.i.Main [main] Total of this division is: -Infinity
+2021-08-08 22:52:28,003 ERROR c.s.i.Main [main] this is the divide by 0 ZERO:
+2021-08-08 22:52:28,004 INFO c.s.i.Main [main] the bond insurance cost is: 36000.0

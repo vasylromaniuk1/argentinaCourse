@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="licenses" type="licensesType"/>
+  <xs:complexType name="licenseType">
+    <xs:sequence>
+      <xs:element name="number">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="100"/>
+            <xs:enumeration value="200"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="expired_date">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="20-10-2022"/>
+            <xs:enumeration value="25-11-2021"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="employee_id">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="licensesType">
+    <xs:sequence>
+      <xs:element type="licenseType" name="license" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

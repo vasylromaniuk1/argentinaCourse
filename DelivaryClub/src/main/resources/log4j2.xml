@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+
+        !-- Console appender will write to a console -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level  - %msg%n"/>
+        </Console>
+
+        <!-- File appender will write to a file -->
+        <File name="LogFile" fileName="logs/app.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Root level="error">
+            <AppenderRef ref="Console"/>
+        </Root>
+        <!-- just to log Main file -->
+        <Logger name="com.solvd.delivery.Main" level="info">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+
+    </Loggers>
+
+
+
+
+
+
+</Configuration>
+
+

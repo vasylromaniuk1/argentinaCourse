@@ -1,0 +1,17 @@
+<employees>
+    <employee id="1">
+        <fname>Ivan</fname>
+        <lname>Ivanov</lname>
+        <age>25</age>
+    </employee>
+    <employee id="2">
+        <fname>Petr</fname>
+        <lname>Petrov</lname>
+        <age>35</age>
+    </employee>
+    <employee id="3">
+        <fname>Dana</fname>
+        <lname>Jonson</lname>
+    </employee>
+</employees>
+
