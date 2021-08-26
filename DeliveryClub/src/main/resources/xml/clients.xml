@@ -1,0 +1,12 @@
+<clients>
+    <client id="1">
+        <fname>Dana</fname>
+        <lname>Portnova</lname>
+        <age>44</age>
+    </client>
+    <client id="2">
+        <fname>Alex</fname>
+        <lname>Anisimov</lname>
+        <age>25</age>
+    </client>
+</clients>

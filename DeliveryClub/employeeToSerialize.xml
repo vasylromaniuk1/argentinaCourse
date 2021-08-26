@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.5" class="java.beans.XMLDecoder">
+ <object class="com.solvd.delivery.DAO.classes.Employee">
+  <void property="age">
+   <int>25</int>
+  </void>
+  <void property="id">
+   <long>123</long>
+  </void>
+  <void property="lastName">
+   <string>Jones</string>
+  </void>
+  <void property="name">
+   <string>Tom</string>
+  </void>
+ </object>
+</java>
