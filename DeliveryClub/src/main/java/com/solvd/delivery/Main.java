@@ -15,6 +15,9 @@ import com.solvd.delivery.DAO.ConnectionPool;
 import com.solvd.delivery.DAO.classes.Employee;
 import com.solvd.delivery.DAO.mysql.jdbc.EmployeesDAO;
 import com.solvd.delivery.TasksForThreads.ExecuteQuery;
+import com.solvd.delivery.Utils.HelpUtils;
+import com.solvd.delivery.myBatis.EmployeeMapper;
+import com.solvd.delivery.myBatis.MyBatisUtil;
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -24,6 +27,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import org.apache.ibatis.session.SqlSession;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -36,12 +40,13 @@ public class Main {
 
 
   public static void main(String[] args)
+
       throws IOException, SQLException, ExecutionException, InterruptedException {
 
-      jacksonDemo();
-      jaxbDemo();
-      //TODO add more demos methods below
-
+    jacksonDemo();
+    jaxbDemo();
+    myBatisDemo();
+    //TODO add more demos methods below
 
     // ******************* XML Parser DEMO **********************
 
@@ -85,7 +90,7 @@ public class Main {
     // ********* BEGINNING OF DAO DEMONSTRATION. CONNECTION POOL ********** //
 
     //generate some employees SQL records  to pull later
-    //HelpUtils.generateEmployeesRecords();
+    HelpUtils.generateEmployeesRecordsInDb();
 
     ExecutorService threadPool = Executors.newFixedThreadPool(6);
     ConnectionPool connectionPool = ConnectionPool.setUpConnectionPoolOfSize(5);
@@ -137,56 +142,74 @@ public class Main {
   }
 
   public static void jacksonDemo() {
-      // ******************* BEGINNING JACKSON SERIALIZE/DESERIALIZE DEMO **********************
+    // ******************* BEGINNING JACKSON SERIALIZE/DESERIALIZE DEMO **********************
 
-      LOGGER.info("******************* JACKSON SERIALIZE/DESERIALIZE DEMO **********************");
+    LOGGER.info("******************* JACKSON SERIALIZE/DESERIALIZE DEMO **********************");
 
-      Employee employeeToSerialize = generateEmployeeForDemo("Bill", "Gates", 3401, 54);
+    Employee employeeToSerialize = generateEmployeeForDemo("Bill", "Gates", 3401, 54);
 
-      //serialize
-      String jsonResult = null;
-      try {
-          jsonResult = om.writerWithDefaultPrettyPrinter()
-              .writeValueAsString(employeeToSerialize);
-      } catch (JsonProcessingException e) {
-          LOGGER.error("Failed to serialize jackson"+ e);
-      }
-      LOGGER.info("Serialized by jackson: " + jsonResult);
+    //serialize
+    String jsonResult = null;
+    try {
+      jsonResult = om.writerWithDefaultPrettyPrinter()
+          .writeValueAsString(employeeToSerialize);
+    } catch (JsonProcessingException e) {
+      LOGGER.error("Failed to serialize jackson" + e);
+    }
+    LOGGER.info("Serialized by jackson: " + jsonResult);
 
-      //de-serialize
+    //de-serialize
 
-      final ObjectReader reader = om.reader(Employee.class);
-      Employee employeeDeserialized = null;
-      try {
-          employeeDeserialized = reader
-              .readValue(jsonResult);
-      } catch (JsonProcessingException e) {
-         LOGGER.error("Failed to deserialize jackson"+ e);
-      }
+    final ObjectReader reader = om.reader(Employee.class);
+    Employee employeeDeserialized = null;
+    try {
+      employeeDeserialized = reader
+          .readValue(jsonResult);
+    } catch (JsonProcessingException e) {
+      LOGGER.error("Failed to deserialize jackson" + e);
+    }
 
-      LOGGER.info("De-serialized by jackson: " + employeeDeserialized.toString());
+    LOGGER.info("De-serialized by jackson: " + employeeDeserialized.toString());
 
-      // ******************* END  JACKSON SERIALIZE/DESERIALIZE DEMO **********************
+    // ******************* END  JACKSON SERIALIZE/DESERIALIZE DEMO **********************
   }
 
-  public static void jaxbDemo(){
-      // ******************* BEGINNING JAXB Parser DEMO **********************
+  public static void jaxbDemo() {
+    // ******************* BEGINNING JAXB Parser DEMO **********************
 
-      LOGGER.info("******************* BEGINNING JAXB Parser DEMO **********************");
+    LOGGER.info("******************* BEGINNING JAXB Parser DEMO **********************");
 
-      Employee employeeToSerialize = generateEmployeeForDemo("Bill", "Gates", 3401, 54);
+    Employee employeeToSerialize = generateEmployeeForDemo("Bill", "Gates", 3401, 54);
 
-      try {
-          serializeToXml(employeeToSerialize);
-      } catch (IOException e) {
-          LOGGER.error("Failed to deserialize jaxb"+ e);
-      }
-      Employee jaxbUnmarshaled = null;
-      try {
-          jaxbUnmarshaled = deserialize("jaxb.xml");
-      } catch (IOException e) {
-          e.printStackTrace();
-      }
-      LOGGER.info("JAXB unmarshaled this object succesfully from XML: " + jaxbUnmarshaled);
+    try {
+      serializeToXml(employeeToSerialize);
+    } catch (IOException e) {
+      LOGGER.error("Failed to deserialize jaxb" + e);
+    }
+    Employee jaxbUnmarshaled = null;
+    try {
+      jaxbUnmarshaled = deserialize("jaxb.xml");
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+    LOGGER.info("JAXB unmarshaled this object succesfully from XML: " + jaxbUnmarshaled);
+  }
+
+
+  public static void myBatisDemo() {
+    // ******************* MyBatis DEMO. NOt finished  **********************
+    LOGGER.info(" ******************* MyBatis DEMO. NOt finished  **********************");
+    try {
+      SqlSession session = MyBatisUtil.buildSqlSessionFactoryJava().openSession();
+      EmployeeMapper mapper = session.getMapper(EmployeeMapper.class);
+      Employee empl = mapper.getEmployee(136);
+      LOGGER.info("Queried and mapped with myBatis: " + empl);
+      session.close();
+    } catch (Exception e) {
+      LOGGER.error("MyBatis query failed " + e.getStackTrace());
+    }
+
   }
 }
+
+
