@@ -1,5 +1,10 @@
 package com.solvd.delivery.DAO.classes;
 
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlType;
+
+@XmlRootElement(name = "License")
+@XmlType(propOrder = {"id", "number", "expiredDate", "employeeId"})
 public class License {
 
     private long id;
@@ -23,7 +28,7 @@ public class License {
             return number;
         }
 
-        public void setNumber (String name){
+        public void setNumber (String number){
             this.number = number;
         }
 
@@ -31,7 +36,7 @@ public class License {
             return expiredDate;
         }
 
-        public void setExpiredDate (String lastName){
+        public void setExpiredDate (String expiredDate){
             this.expiredDate = expiredDate;
         }
 
@@ -43,10 +48,8 @@ public class License {
             this.employeeId = employeeId;
         }
 
-        //public String toString () {//overriding the toString() method
-        // return id + " " number + " " + expiredDate + " " + employeeId;}
-
-
-
+        public String toString () {
+         return id + " "+ number + " " + expiredDate + " " + employeeId;
+        }
 
 }

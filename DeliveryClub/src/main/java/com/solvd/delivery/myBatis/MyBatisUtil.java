@@ -1,6 +1,5 @@
 package com.solvd.delivery.myBatis;
 
-import com.solvd.delivery.DAO.classes.Employee;
 import com.solvd.delivery.Utils.PropertyFileParser;
 import java.io.IOException;
 import java.io.InputStream;
@@ -50,8 +49,9 @@ public class MyBatisUtil {
         = new Environment("dev", new JdbcTransactionFactory(), dataSource);
 
     Configuration configuration = new Configuration(environment);
-    configuration.addMapper(EmployeeMapper.class);
-    configuration.addMapper(LicenceMapper.class);
+    configuration.addMapper(IBaseMapper.class);
+    configuration.addMapper(IEmployeeMapper.class);
+    configuration.addMapper(ILicenceMapper.class);
     SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
     return builder.build(configuration);
   }

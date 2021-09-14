@@ -17,14 +17,4 @@
     </environment>
   </environments>
 
-  <mappers>
-    <mapper resource="mybatis/mappers/addressMapper.xml"/>
-    <mapper resource="mybatis/mappers/cityMapper.xml"/>
-    <mapper resource="mybatis/mappers/countryMapper.xml"/>
-
-    <mapper resource="mybatis/mappers/brandMapper.xml"/>
-    <mapper resource="mybatis/mappers/carModelMapper.xml"/>
-    <mapper resource="mybatis/mappers/paintColorMapper.xml"/>
-    <mapper resource="mybatis/mappers/providerMapper.xml"/>
-  </mappers>
 </configuration>
